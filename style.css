@@ -1,0 +1,389 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #060707;
+  scroll-behavior: smooth;
+
+  
+}
+/* Sidebar Styles */
+.side-bar {
+  width: 300px;
+  height: 100vh;
+  background-color: #060707;
+  position: fixed;
+  transition: 0.5s;
+  border: 2px solid #b15111;
+  color: #f0e8e3;
+  font-size: 30px;
+}
+
+.side-bar__logo {
+  text-align: center;
+  color: #f0e8e3;
+  font-size: 30px;
+}
+
+.side-bar__logo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.side-bar-menu ul {
+  list-style: none;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.side-bar-menu ul li {
+  margin: 20px 0;
+  padding: 20px 0;
+  transition: 0.5s;
+}
+
+.side-bar-menu ul li a {
+  color: #b15111;
+  font-size: 30px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+#social-icon img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+  margin-left: 5%;
+}
+
+/* Main Content Styles */
+.main-content {
+  position: absolute;
+  margin-left: 300px;
+  margin-bottom: 100px; /* Add margin bottom to push the content up */
+  padding: 20px;
+  color: #e4d7d7;
+  border-radius: 20px;
+  border-color: #b15111;
+  border-style: solid;
+  width: 84.3%;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.main-content p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.home-page {
+  color: #f0e3e3;
+  width: 30%;
+  height: 20vh;
+  border-radius: 30px;
+  border-color: #000000;
+  border-style: solid;
+  text-align: center;
+  margin-left: 41%;
+}
+
+.home-page h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 20px 0;
+  color: #f7f2f4;
+}
+
+.home-page h2 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #f4f5f0;
+}
+/* Contact Section Styles */
+.contact {
+  color: #fff;
+  margin-top: 120%;
+  padding: 40px;
+  position: absolute;
+  width: 84.3%;
+  margin-left: 15.5%;
+  border-radius: 20px;
+  border-color: #b15111;
+  border-style: solid;
+
+}
+.contact h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.contact p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.contact {
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.contact h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #f3ebeb; /* Set default text color */
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #f3e6e6; /* Set default text color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  color: #ffffff; /* Set text color on focus */
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  color: #eee8e8; /* Set placeholder text color */
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #b15111;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #8a320d;
+}
+
+
+.Education {
+  color: #fff;
+  padding: 50px;
+  position: absolute;
+  width: 84.3%;
+  margin-left: 15.5%;
+  border-radius: 20px;
+  border-color: #b15111;
+  border-style: solid;
+  margin-top: 25%;
+  
+}
+.Education h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.Education h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.Education li{
+  font-size: 30px;
+  padding: 3px;
+}
+.projects
+{
+  color: #fff;
+  padding: 50px;
+  position: absolute;
+  width: 84.3%;
+  margin-left: 15.5%;
+  border-radius: 20px;
+  border-color: #b15111;
+  border-style: solid;
+  margin-top: 56%;
+}
+.projects h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.projects h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.projects p{
+  font-size: 25px;
+  padding: 20px;
+}
+
+#my_works {
+  color: #fff;
+  padding: 50px;
+  position: absolute;
+  width: 84.3%;
+  margin-left: 15.5%;
+  border-radius: 20px;
+  border-color: #b15111;
+  border-style: solid;
+  margin-top: 90%;
+  height: 500px;
+}
+
+#my_works h1 {
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#my_works .row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Portfolio Styles */
+#portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columns.portfolio-item {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.columns.portfolio-item:last-child {
+  margin-right: 0;
+}
+
+.columns.portfolio-item .item-wrap {
+  position: relative;
+}
+
+.columns.portfolio-item img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.5s;
+}
+
+.columns.portfolio-item:hover img {
+  filter: blur(4px);
+}
+
+.columns.portfolio-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columns.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+
+.columns.portfolio-item .portfolio-item-meta {
+  text-align: center;
+}
+
+.columns.portfolio-item .portfolio-item-meta h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.columns.portfolio-item .portfolio-item-meta p {
+  font-size: 16px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .columns.portfolio-item {
+    width: calc(50% - 20px);
+  }
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .side-bar {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .side-bar__logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .side-bar__logo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .side-bar-menu ul {
+    padding: 10px 0;
+  }
+
+  .side-bar-menu ul li {
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+
+  .main-content {
+    position: relative;
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .home-page {
+    width: 80%;
+    margin: 20px auto;
+  }
